@@ -766,8 +766,8 @@ class Emitter(object):
 
         # Although the plain scalar writer supports breaks, we never emit
         # multiline plain scalars.
-        if line_breaks:
-            allow_flow_plain = allow_block_plain = False
+#        if line_breaks:
+#            allow_flow_plain = allow_block_plain = False
 
         # Flow indicators are forbidden for flow plain scalars.
         if flow_indicators:
